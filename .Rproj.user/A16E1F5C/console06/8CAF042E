@@ -1,3 +1,75 @@
 ]0;~/Dropbox/R_projects/render_pdf_try[?1034hMac-di-Andrea:render_pdf_try andrea_cirillo$ git init
 Initialized empty Git repository in /Users/andrea_cirillo/Dropbox/R_projects/render_pdf_try/.git/
 ]0;~/Dropbox/R_projects/render_pdf_tryMac-di-Andrea:render_pdf_try andrea_cirillo$ git add .[K-A
+]0;~/Dropbox/R_projects/render_pdf_tryMac-di-Andrea:render_pdf_try andrea_cirillo$ git commit -m "inital[K[Kial commit"
+[master (root-commit) 7b53d24] initial commit
+ 18 files changed, 331 insertions(+)
+ create mode 100644 .Rproj.user/A16E1F5C/console06/8CAF042E
+ create mode 100644 .Rproj.user/A16E1F5C/console06/INDEX001
+ create mode 100644 .Rproj.user/A16E1F5C/sources/prop/91425A31
+ create mode 100644 .Rproj.user/A16E1F5C/sources/prop/A5A8B4DF
+ create mode 100644 .Rproj.user/A16E1F5C/sources/prop/INDEX
+ create mode 100644 .Rproj.user/A16E1F5C/sources/s-B48606A9/B6AF6D37
+ create mode 100644 .Rproj.user/A16E1F5C/sources/s-B48606A9/B6AF6D37-contents
+ create mode 100644 .Rproj.user/A16E1F5C/sources/s-B48606A9/CEED00B2
+ create mode 100644 .Rproj.user/A16E1F5C/sources/s-B48606A9/CEED00B2-contents
+ create mode 100644 .Rproj.user/A16E1F5C/sources/s-B48606A9/lock_file
+ create mode 100644 .Rproj.user/shared/notebooks/FA00525E-template/1/A16E1F5CB48606A9/chunks.json
+ create mode 100644 .Rproj.user/shared/notebooks/FA00525E-template/1/s/chunks.json
+ create mode 100644 .Rproj.user/shared/notebooks/patch-chunk-names
+ create mode 100644 .Rproj.user/shared/notebooks/paths
+ create mode 100644 render_pdf_try.Rproj
+ create mode 100644 rendering_script.R
+ create mode 100644 template.Rmd
+ create mode 100644 template.html
+]0;~/Dropbox/R_projects/render_pdf_tryMac-di-Andrea:render_pdf_try andrea_cirillo$ git add[K[K[K[K[K[K[Kgit are[K[K[Kremote add origin https://github/[K.com/yse[K[K[Kandreacirilloac/render_pd f.git
+]0;~/Dropbox/R_projects/render_pdf_tryMac-di-Andrea:render_pdf_try andrea_cirillo$ gitre[K[K remote -v
+origin	https://github.com/andreacirilloac/render_pdf.git (fetch)
+origin	https://github.com/andreacirilloac/render_pdf.git (push)
+]0;~/Dropbox/R_projects/render_pdf_tryMac-di-Andrea:render_pdf_try andrea_cirillo$ git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+]0;~/Dropbox/R_projects/render_pdf_tryMac-di-Andrea:render_pdf_try andrea_cirillo$ git push --set [K-upstream origin master
+remote: Repository not found.
+fatal: repository 'https://github.com/andreacirilloac/render_pdf.git/' not found
+]0;~/Dropbox/R_projects/render_pdf_tryMac-di-Andrea:render_pdf_try andrea_cirillo$ git push --set-upstream origin master[K
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+]0;~/Dropbox/R_projects/render_pdf_tryMac-di-Andrea:render_pdf_try andrea_cirillo$ git push --set-upstream origin master
+Counting objects: 28, done.
+Delta compression using up to 4 threads.
+Compressing objects:   4% (1/24)   Compressing objects:   8% (2/24)   Compressing objects:  12% (3/24)   Compressing objects:  16% (4/24)   Compressing objects:  20% (5/24)   Compressing objects:  25% (6/24)   Compressing objects:  29% (7/24)   Compressing objects:  33% (8/24)   Compressing objects:  37% (9/24)   Compressing objects:  41% (10/24)   Compressing objects:  45% (11/24)   Compressing objects:  50% (12/24)   Compressing objects:  54% (13/24)   Compressing objects:  58% (14/24)   Compressing objects:  62% (15/24)   Compressing objects:  66% (16/24)   Compressing objects:  70% (17/24)   Compressing objects:  75% (18/24)   Compressing objects:  79% (19/24)   Compressing objects:  83% (20/24)   Compressing objects:  87% (21/24)   Compressing objects:  91% (22/24)   Compressing objects:  95% (23/24)   Compressing objects: 100% (24/24)   Compressing objects: 100% (24/24), done.
+Writing objects:   3% (1/28)   Writing objects:   7% (2/28)   Writing objects:  10% (3/28)   Writing objects:  14% (4/28)   Writing objects:  17% (5/28)   Writing objects:  21% (6/28)   Writing objects:  25% (7/28)   Writing objects:  28% (8/28)   Writing objects:  32% (9/28)   Writing objects:  35% (10/28)   Writing objects:  39% (11/28)   Writing objects:  42% (12/28)   Writing objects:  46% (13/28)   Writing objects:  50% (14/28)   Writing objects:  53% (15/28)   Writing objects:  57% (16/28)   Writing objects:  60% (17/28)   Writing objects:  64% (18/28)   Writing objects:  67% (19/28)   Writing objects:  71% (20/28)   Writing objects:  75% (21/28)   Writing objects:  78% (22/28)   Writing objects:  82% (23/28)   Writing objects:  85% (24/28)   Writing objects:  89% (25/28)   Writing objects:  92% (26/28)   Writing objects:  96% (27/28)   Writing objects: 100% (28/28)   Writing objects: 100% (28/28), 280.97 KiB | 0 bytes/s, done.
+Total 28 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/2)   [Kremote: Resolving deltas:  50% (1/2)   [Kremote: Resolving deltas: 100% (2/2)   [Kremote: Resolving deltas: 100% (2/2), done.[K
+To https://github.com/andreacirilloac/render_pdf.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+]0;~/Dropbox/R_projects/render_pdf_tryMac-di-Andrea:render_pdf_try andrea_cirillo$ git push
+Everything up-to-date
+]0;~/Dropbox/R_projects/render_pdf_tryMac-di-Andrea:render_pdf_try andrea_cirillo$ git zdd[K[K[Kadd -[Kred[Knderinrg_[K[K[Kng[K[Kg_script.R 
+]0;~/Dropbox/R_projects/render_pdf_tryMac-di-Andrea:render_pdf_try andrea_cirillo$ git commit -m"[K "add[K[K[Kworking example"
+[master 8130e01] working example
+ 1 file changed, 4 insertions(+)
+]0;~/Dropbox/R_projects/render_pdf_tryMac-di-Andrea:render_pdf_try andrea_cirillo$ git push
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 400 bytes | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)   [Kremote: Resolving deltas: 100% (1/1)   [Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/andreacirilloac/render_pdf.git
+   7b53d24..8130e01  master -> master
+]0;~/Dropbox/R_projects/render_pdf_try[?1034hMac-di-Andrea:render_pdf_try andrea_cirillo$ rm .pdf
+rm: .pdf: No such file or directory
+]0;~/Dropbox/R_projects/render_pdf_tryMac-di-Andrea:render_pdf_try andrea_cirillo$ pwd
+/Users/andrea_cirillo/Dropbox/R_projects/render_pdf_try
+]0;~/Dropbox/R_projects/render_pdf_tryMac-di-Andrea:render_pdf_try andrea_cirillo$ rm ls *.pdf
+rm: ls: No such file or directory
+]0;~/Dropbox/R_projects/render_pdf_tryMac-di-Andrea:render_pdf_try andrea_cirillo$ git add -A
