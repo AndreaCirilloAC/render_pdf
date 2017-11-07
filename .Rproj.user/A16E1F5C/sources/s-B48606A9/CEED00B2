@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1510086172063.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3553236198",
+    "id" : "CEED00B2",
+    "lastKnownWriteTime" : 1510086395,
+    "last_content_update" : 1510086610437,
+    "path" : "~/Dropbox/R_projects/render_pdf_try/template.Rmd",
+    "project_path" : "template.Rmd",
+    "properties" : {
+        "cursorPosition" : "21,11",
+        "scrollLine" : "14",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
